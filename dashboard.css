@@ -1,0 +1,82 @@
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:linear-gradient(135deg,#4facfe,#00f2fe);
+min-height:100vh;
+}
+
+/* Main container */
+
+.main{
+padding:40px;
+text-align:center;
+}
+
+/* Header */
+
+.header{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+margin-bottom:40px;
+}
+
+/* Logout button */
+
+.logout-btn{
+position:absolute;
+top:20px;
+right:20px;
+padding:10px 20px;
+background:#e74c3c;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+.logout-btn:hover{
+background:#c0392b;
+}
+
+/* Dashboard boxes */
+
+.dashboard-box{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+/* Box */
+
+.box{
+background:white;
+padding:30px;
+width:250px;
+border-radius:10px;
+box-shadow:0 6px 15px rgba(0,0,0,0.2);
+text-align:center;
+transition:0.3s;
+}
+
+.box:hover{
+transform:translateY(-8px);
+}
+
+/* Box button */
+
+.box a{
+display:inline-block;
+margin-top:15px;
+padding:10px 20px;
+background:#007BFF;
+color:white;
+text-decoration:none;
+border-radius:6px;
+}
+
+.box a:hover{
+background:#0056b3;
+}
